@@ -1,0 +1,52 @@
+body, html {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  main {
+    flex-grow: 1;
+  }
+footer
+{
+	margin-top:auto;
+	min-width: 100%;
+	bottom:0;
+	left:0;
+	overflow:hidden;
+	position: relative;
+	background-color:#1a1a1a;
+	height:70px;
+	color:#ffb606;
+	font-family: 'Montserrat', sans-serif;
+}
+footer a.logo
+{
+	top:20px;
+	position:relative;
+	font-size:20px;
+	left:35%;
+	background-color:#1a1a1a;
+	cursor:pointer;
+}
+footer a.l23
+{
+	top:20px;
+	background-color:#1a1a1a;
+	color:white;
+	cursor:pointer;
+	font-size:15px;
+}
+footer b
+{
+	position:relative;
+	left:39%;
+	top:20px;
+	background-color:#1a1a1a;
+	font-size:15px;
+}
