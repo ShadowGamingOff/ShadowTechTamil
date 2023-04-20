@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shadow Gaming</title>
+    <link rel="icon" type="image/x-icon" href="images/web fav icon.png">
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/footer.css">
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
+</script>
+<script src="https://kit.fontawesome.com/6a60bffabf.js" crossorigin="anonymous"></script>
+<script> 
+    $(function(){
+      $("#header").load("header.html"); 
+      $("#loading").load("an2.html");
+    });
+    </script>
+    <style>
+        .message
+        {
+            width:100%;
+            height:320px;
+            background-color: #1a1a1a;
+            position: relative;
+            text-align: center;
+        }
+        .message h1
+        {
+            font-size:50px;
+            color: white;
+        }
+        .message progress
+        {
+            width:800px;
+            height:50px;       
+            border: none;
+            background: red;
+            }
+            
+            progress {
+            color: red;
+            }
+
+            progress::-webkit-progress-value {
+            background: #ffb606;
+            }
+            progress::-moz-progress-bar {
+            background: red;
+            }
+            .message b{
+                color:white;
+                font-size: 20px;
+            }
+    </style>
+</head>
+<body>
+    <div id="header">
+          
+    </div>
+    <main class="main">
+    <div class="message">
+        <h1>UNDER <br> CONSTRUCTION</h1>
+        <progress value="75" max="100" data-lable="COMING SOON"></progress><br>
+        <br>
+        <b>Stay Connect With Us....</b>
+        <br>
+        <br>
+            <i onclick="window.location.href='https://www.instagram.com/itz_shadow_tech/?igshid=ZDdkNTZiNTM%3D'" class="fa fa-instagram fa-2x" aria-hidden="true" style="color:#ffb606;"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <i onclick="window.location.href='https://t.me/shadowtech'" class="fa fa-telegram fa-2x" aria-hidden="true" style="color:#ffb606;"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <i onclick="window.location.href='https://twitter.com/ShadowTechOff1'" class="fa fa-twitter fa-2x" aria-hidden="true" style="color:#ffb606;"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <i onclick="window.location.href='https://www.youtube.com/channel/UCK3XbKT_m0To7mYDYGPES4A'" target="_blank" class="fa fa-youtube-play fa-2x" aria-hidden="true" style="color:#ffb606;"></i>
+    </div>
+</main>
+    <footer>
+        <b>&copy;2023 All Rights Reserved <a class="l23" onclick="location.href='index.html'">shadowtech</a></b>
+       </footer>
+</body>
+</html>
