@@ -1,0 +1,105 @@
+html
+{
+	min-width: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+  scroll-behavior: smooth;
+  height:100vh;
+  background-color:#361f2e;
+}
+body
+{
+	min-width: 100%;
+	margin: 0;
+	padding: 0;
+	scroll-behavior: smooth;
+	display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.headerpart
+{
+	position: static;
+	width:100;
+	height:80px;
+	display: flex;
+	border-bottom:2px solid #d60f0f;
+}
+.search
+{
+	margin-top:20px;
+	margin-left:auto;
+	margin-right:auto;
+	width:400px;
+	height:40px;
+	background-color:#361f2e;
+	border-radius: 5px;
+}
+input
+{
+	width:400px;
+	height:40px;
+	outline: none;
+	border: none;
+	border-radius: 5px;
+	font-size: 20px;
+}
+.logo1
+{
+	width:60px;
+	height:60px;
+	margin:10px;
+	float: right;
+	border-radius: 50px;
+	
+}
+.logo1 img{
+	width:60px;
+	height:60px;
+}
+.main-con{
+	display:flex;
+}
+.main-con .side
+{
+	width:15%;
+	height:700px;
+	border-right: 2px solid #d60f0f ;
+}
+.main-con .posts
+{
+	width:85%;
+	height:100;
+}
+.main-con .pages
+{
+	margin:20PX;
+	width:95%;
+	height:100px;
+	border-radius: 5px;
+	background-color: white;
+	position: static;
+	display: flex;
+}
+.pages .thum
+{
+	width:170px;
+	height:90px;
+	background-color: red;
+	margin:5px;
+	border-radius:2px;
+}
+.pages .content
+{
+	margin-left:10px;
+	margin-top:40px;
+}
+.pages .vic
+{
+	width:20%;
+	height:80px;
+	background-color: red;
+	margin-left:auto;
+	margin-top:10px;
+}
