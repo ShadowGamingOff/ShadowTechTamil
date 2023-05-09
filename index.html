@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Shadow Gaming</title>
+    <meta name="viewport" content="width=device-width, initial-scale=0">
     <link rel="icon" type="image/x-icon" href="images/web fav icon.png">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
@@ -25,7 +26,11 @@ $(function(){
   $("#loading").load("an2.html");
 });
 </script>
-
+<style>
+  @media only screen and (max-width: 768px) {
+  /* Add your CSS styles for mobile devices here */
+}
+</style>
 </head>  
   <body>
     <div id="loading">
@@ -56,28 +61,27 @@ $(function(){
                     </div>
                   </div>
                             <div   class="home-img">
-                                    <a href="https://www.youtube.com/channel/UCK3XbKT_m0To7mYDYGPES4A" target="_blank"><img src="images/hover logo.png"></a>
+                                    <a href="https://www.youtube.com/channel/UCK3XbKT_m0To7mYDYGPES4A" target="_blank"><img src="images/Untitled-1 copy.png"></a>
                             </div>
         </section>
         <section class="home-p" id="post">
           <div class="home-text">
             <h1>Post</h1>
             <div class="p-c">
-              <img src="images/post card 1.png">
+              <img src="images/post card 1 copy.png">
             </div>
             <div class="blog-pagep">
-              <div class="post-p2">
-                  <div class="post-p3" onclick="window.location.href='pageundercons.html'">
-                    <img src="thumbnails/offline 2.jpg">
-                  </div>
-                  <div class="post-p3" onclick="window.location.href='blog/'">
-                    <img src="thumbnails/comming soon poster.jpg">
-                  </div>
-                  
-                  <div class="post-p2-r">
-                    
-                </div>
-            </div>
+                <div class="post-p2">
+                    <div class="post-p3" onclick="window.location.href='pageundercons.html'">
+                      <img src="thumbnails/test 1.jpg">
+                    </div>
+                    <div class="post-p3" onclick="window.location.href='blog/'">
+                      <img src="thumbnails/omniverse 1.jpg">
+                    </div>
+                    <div class="post-p3" onclick="window.location.href='blog/'">
+                      <img src="thumbnails/cosmic des.jpg">
+                    </div>
+              </div>
           </div>
         </section>
         <section class="home-p" id="about">
@@ -113,9 +117,10 @@ $(function(){
           </div>
         </section>
     </main>
-    <footer>
-      <b>&copy;2023 All Rights Reserved <a class="l23" onclick="location.href='index.html'">shadowtech</a></b>
-     </footer>
+    
   </div>
+  <footer>
+    <b>&copy;2023 All Rights Reserved <a class="l23" onclick="location.href='index.html'">shadowtech</a></b>
+   </footer>
   </body>
 </html>
